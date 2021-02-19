@@ -426,7 +426,6 @@ public class Synchronized<name>List
             return <name>Stacks.mutable.withAll(this);
         }
     }
-
 <if(primitive.specializedStream)>
 
     /**
