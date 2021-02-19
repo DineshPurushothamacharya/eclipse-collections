@@ -300,7 +300,6 @@ public class Unmodifiable<name>List
     {
         return <name>Stacks.mutable.withAll(this);
     }
-
 <if(primitive.specializedStream)>
 
     @Override
