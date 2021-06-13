@@ -74,6 +74,8 @@ public interface Ordered<name>Iterable extends <name>Iterable
 
     /**
      * Converts the collection to a <name>Stack.
+     *
+     * @since 11.0.
      */
     default Mutable<name>Stack toStack()
     {

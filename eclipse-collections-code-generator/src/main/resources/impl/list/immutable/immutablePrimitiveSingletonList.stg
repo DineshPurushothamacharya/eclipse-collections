@@ -462,7 +462,7 @@ final class Immutable<name>SingletonList implements Immutable<name>List, Seriali
     @Override
     public Mutable<name>Stack toStack()
     {
-        return <name>Stacks.mutable.withAll(this);
+        return <name>Stacks.mutable.with(this.element1);
     }
     <if(primitive.specializedStream)>
 

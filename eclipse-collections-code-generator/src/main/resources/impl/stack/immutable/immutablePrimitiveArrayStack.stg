@@ -184,7 +184,7 @@ final class Immutable<name>ArrayStack extends Abstract<name>Stack
     @Override
     public Mutable<name>Stack toStack()
     {
-        return <name>Stacks.mutable.withAll(this);
+        return <name>Stacks.mutable.withAllReversed(this);
     }
 
     private static class Immutable<name>StackSerializationProxy implements Externalizable

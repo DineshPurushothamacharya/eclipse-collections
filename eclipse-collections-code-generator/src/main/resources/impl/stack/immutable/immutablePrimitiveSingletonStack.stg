@@ -421,7 +421,7 @@ final class Immutable<name>SingletonStack implements Immutable<name>Stack, Seria
     @Override
     public Mutable<name>Stack toStack()
     {
-        return <name>Stacks.mutable.withAll(this);
+        return <name>Stacks.mutable.with(this.element1);
     }
 }
 

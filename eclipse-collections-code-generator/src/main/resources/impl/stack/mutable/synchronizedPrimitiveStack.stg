@@ -547,7 +547,10 @@ public class Synchronized<name>Stack
     @Override
     public Mutable<name>Stack toStack()
     {
-        return <name>Stacks.mutable.withAll(this);
+        synchronized (this.lock)
+        {
+            return this.stack.toStack();
+        }
     }
 }
 

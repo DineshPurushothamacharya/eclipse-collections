@@ -246,7 +246,7 @@ public class <name>ArrayStack extends Abstract<name>Stack
     @Override
     public Mutable<name>Stack toStack()
     {
-        return <name>Stacks.mutable.withAll(this);
+        return <name>Stacks.mutable.withAllReversed(this);
     }
 }
 

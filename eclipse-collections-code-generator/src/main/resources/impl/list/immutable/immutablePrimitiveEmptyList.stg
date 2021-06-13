@@ -405,7 +405,7 @@ final class Immutable<name>EmptyList implements Immutable<name>List, Serializabl
     @Override
     public Mutable<name>Stack toStack()
     {
-        return <name>Stacks.mutable.withAll(this);
+        return <name>Stacks.mutable.empty();
     }
 <if(primitive.specializedStream)>
 

@@ -369,7 +369,7 @@ final class Immutable<name>EmptyStack implements Immutable<name>Stack, Serializa
     @Override
     public Mutable<name>Stack toStack()
     {
-        return <name>Stacks.mutable.withAll(this);
+        return <name>Stacks.mutable.empty();
     }
 }
 
